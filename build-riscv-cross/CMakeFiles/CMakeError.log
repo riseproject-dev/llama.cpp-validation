@@ -1,0 +1,80 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/riscv64-unknown-linux-gnu-gcc 
+Build flags: 
+Id flags: -c;--target=riscv64-unknown-elf 
+
+The output was:
+1
+riscv64-unknown-linux-gnu-gcc: error: unrecognized command-line option '--target=riscv64-unknown-elf'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/riscv64-unknown-linux-gnu-g++ 
+Build flags: 
+Id flags: -c;--target=riscv64-unknown-elf 
+
+The output was:
+1
+riscv64-unknown-linux-gnu-g++: error: unrecognized command-line option '--target=riscv64-unknown-elf'
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/riscv64-unknown-linux-gnu-gcc 
+Build flags: 
+Id flags: -c;--target=riscv64-unknown-elf 
+
+The output was:
+1
+riscv64-unknown-linux-gnu-gcc: error: unrecognized command-line option '--target=riscv64-unknown-elf'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/riscv64-unknown-linux-gnu-g++ 
+Build flags: 
+Id flags: -c;--target=riscv64-unknown-elf 
+
+The output was:
+1
+riscv64-unknown-linux-gnu-g++: error: unrecognized command-line option '--target=riscv64-unknown-elf'
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/riscv64-unknown-linux-gnu-gcc 
+Build flags: 
+Id flags: -c;--target=riscv64-unknown-elf 
+
+The output was:
+1
+riscv64-unknown-linux-gnu-gcc: error: unrecognized command-line option '--target=riscv64-unknown-elf'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/riscv64-unknown-linux-gnu-g++ 
+Build flags: 
+Id flags: -c;--target=riscv64-unknown-elf 
+
+The output was:
+1
+riscv64-unknown-linux-gnu-g++: error: unrecognized command-line option '--target=riscv64-unknown-elf'
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/riscv64-unknown-linux-gnu-gcc 
+Build flags: 
+Id flags: -c;--target=riscv64-unknown-elf 
+
+The output was:
+1
+riscv64-unknown-linux-gnu-gcc: error: unrecognized command-line option '--target=riscv64-unknown-elf'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/riscv64-unknown-linux-gnu-g++ 
+Build flags: 
+Id flags: -c;--target=riscv64-unknown-elf 
+
+The output was:
+1
+riscv64-unknown-linux-gnu-g++: error: unrecognized command-line option '--target=riscv64-unknown-elf'
+
+

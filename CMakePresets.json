@@ -1,0 +1,156 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 22,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "riscv-release",
+      "displayName": "RISC-V Release (Native)",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build-riscv-release",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_C_COMPILER": "gcc-14",
+        "CMAKE_CXX_COMPILER": "g++-14",
+        "CMAKE_C_COMPILER_LAUNCHER": "ccache",
+        "CMAKE_CXX_COMPILER_LAUNCHER": "ccache",
+        "LLAMA_CPP_DIR": "${sourceDir}/llama.cpp",
+        "LLAMA_BUILD_COMMON": "ON",
+        "LLAMA_BUILD_TOOLS": "ON",
+        "LLAMA_BUILD_TESTS": "ON",
+        "GGML_RVV": "ON",
+        "GGML_USE_LLAMAFILE": "ON",
+        "GGML_RV_ZFH": "ON",
+        "GGML_RV_ZVFH": "ON",
+        "LLAMA_CURL": "OFF",
+        "GGML_OPENMP": "ON",
+        "GGML_SIMD": "ON",
+        "GGML_CPU_REPACK": "ON"
+      }
+    },
+    {
+      "name": "riscv-cross",
+      "displayName": "RISC-V Cross Release",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build-riscv-cross",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_CROSSCOMPILING": "ON",
+        "CMAKE_TOOLCHAIN_FILE": "${sourceDir}/cmake/riscv64-linux-gcc.cmake",
+        "CMAKE_C_COMPILER_LAUNCHER": "ccache",
+        "CMAKE_CXX_COMPILER_LAUNCHER": "ccache",
+        "LLAMA_CPP_DIR": "${sourceDir}/llama.cpp",
+        "LLAMA_BUILD_COMMON": "ON",
+        "LLAMA_BUILD_TOOLS": "ON",
+        "LLAMA_BUILD_TESTS": "ON",
+        "GGML_RVV": "ON",
+        "GGML_USE_LLAMAFILE": "ON",
+        "GGML_RV_ZFH": "ON",
+        "GGML_RV_ZVFH": "ON",
+        "LLAMA_CURL": "OFF",
+        "GGML_OPENMP": "OFF",
+        "GGML_SIMD": "ON",
+        "GGML_CPU_REPACK": "ON"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "riscv-release",
+      "configurePreset": "riscv-release",
+      "jobs": 8,
+      "targets": [
+        "test-quantize",
+        "test-float",
+        "perf-float",
+        "test-repack",
+        "perf-repack",
+        "test-backend-ops",
+        "test-quantize-perf",
+        "llama-bench"
+      ]
+    },
+    {
+      "name": "riscv-cross",
+      "configurePreset": "riscv-cross",
+      "jobs": 8,
+      "targets": [
+        "test-quantize",
+        "test-float",
+        "test-repack",
+        "test-backend-ops"
+      ]
+    }
+  ],
+  "testPresets": [
+    {
+      "name": "riscv-native-tests",
+      "displayName": "Native: Run Kernel/Ops Correctness Tests and Benchmarking",
+      "configurePreset": "riscv-release",
+      "output": { "verbosity": "verbose", "outputOnFailure": true },
+      "filter": {
+        "include": {
+          "name": "^(test-quantize|test-quantize-perf|test-float|perf-float|test-repack|perf-repack|test-backend-ops-mul-mat|test-backend-ops-flash-attn|perf-backend-ops-mul-mat|perf-backend-ops-flash-attn)$"
+        }
+      }
+    },
+    {"name": "riscv-128-tests",
+    "displayName": "vlen=128: Run Kernel/Ops Correctness Tests",
+    "configurePreset": "riscv-cross",
+    "environment": {
+      "QEMU_CPU": "rv64,v=true,vlen=128,zfh=true,zvfh=true,zifencei=true,vext_spec=v1.0"
+    },
+    "output": { "verbosity": "verbose", "outputOnFailure": true },
+    "filter": {
+      "include": {
+        "name": "^(test-quantize|test-float|test-repack|test-backend-ops-mul-mat|test-backend-ops-flash-attn)$"
+      }
+    }
+    },
+    {
+      "name": "riscv-256-tests",
+      "displayName": "vlen=256: Run Kernel/Ops Correctness Tests",
+      "configurePreset": "riscv-cross",
+      "environment": {
+        "QEMU_CPU": "rv64,v=true,vlen=256,zfh=true,zvfh=true,zifencei=true,vext_spec=v1.0"
+      },
+      "output": { "verbosity": "verbose", "outputOnFailure": true },
+      "filter": {
+        "include": {
+          "name": "^(test-quantize|test-float|test-repack|test-backend-ops-mul-mat|test-backend-ops-flash-attn)$"
+        }
+      }
+    },
+    {
+      "name": "riscv-512-tests",
+      "displayName": "vlen=512: Run Kernel/Ops Correctness Tests",
+      "configurePreset": "riscv-cross",
+      "environment": {
+        "QEMU_CPU": "rv64,v=true,vlen=512,zfh=true,zvfh=true,zifencei=true,vext_spec=v1.0"
+      },
+      "output": { "verbosity": "verbose", "outputOnFailure": true },
+      "filter": {
+        "include": {
+          "name": "^(test-quantize|test-float|test-repack|test-backend-ops-mul-mat|test-backend-ops-flash-attn)$"
+        }
+      }
+    },
+    {
+      "name": "riscv-1024-tests",
+      "displayName": "vlen=1024: Run Kernel/Ops Correctness Tests",
+      "configurePreset": "riscv-cross",
+      "environment": {
+        "QEMU_CPU": "rv64,v=true,vlen=1024,zfh=true,zvfh=true,zifencei=true,vext_spec=v1.0"
+      },
+      "output": { "verbosity": "verbose", "outputOnFailure": true },
+      "filter": {
+        "include": {
+          "name": "^(test-quantize|test-float|test-repack|test-backend-ops-mul-mat|test-backend-ops-flash-attn)$"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+The target system is: Linux -  - riscv64
+The host system is: Linux - 6.8.0-106-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/riscv64-unknown-linux-gnu-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/rehan-10xe/Documents/work/llama.cpp-RISE-testing/build-riscv-cross/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/riscv64-unknown-linux-gnu-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/rehan-10xe/Documents/work/llama.cpp-RISE-testing/build-riscv-cross/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/riscv64-unknown-linux-gnu-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/rehan-10xe/Documents/work/llama.cpp-RISE-testing/build-riscv-cross/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/riscv64-unknown-linux-gnu-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/rehan-10xe/Documents/work/llama.cpp-RISE-testing/build-riscv-cross/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/riscv64-unknown-linux-gnu-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/rehan-10xe/Documents/work/llama.cpp-RISE-testing/build-riscv-cross/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/riscv64-unknown-linux-gnu-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/rehan-10xe/Documents/work/llama.cpp-RISE-testing/build-riscv-cross/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/riscv64-unknown-linux-gnu-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/rehan-10xe/Documents/work/llama.cpp-RISE-testing/build-riscv-cross/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/riscv64-unknown-linux-gnu-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/rehan-10xe/Documents/work/llama.cpp-RISE-testing/build-riscv-cross/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/rehan-10xe/Documents/work/llama.cpp-RISE-testing/build-riscv-cross/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_be666 && [1/2] Building C object CMakeFiles/cmTC_be666.dir/testCCompiler.c.o
+[2/2] Linking C static library libcmTC_be666.a
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/rehan-10xe/Documents/work/llama.cpp-RISE-testing/build-riscv-cross/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b6c28 && [1/2] Building CXX object CMakeFiles/cmTC_b6c28.dir/CMakeCXXCompilerABI.cpp.o
+Using built-in specs.
+COLLECT_GCC=/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/riscv64-unknown-linux-gnu-g++
+Target: riscv64-unknown-linux-gnu
+Configured with: /home/runner/work/riscv-gnu-toolchain/riscv-gnu-toolchain/gcc/configure --target=riscv64-unknown-linux-gnu --prefix=/mnt/riscv --with-sysroot=/mnt/riscv/sysroot --with-pkgversion=g5115c7e44 --with-system-zlib --enable-shared --enable-tls --enable-languages=c,c++,fortran --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libsanitizer --disable-nls --disable-bootstrap --src=.././gcc --disable-default-pie --disable-multilib --with-abi=lp64d --with-arch=rv64gc --with-isa-spec=20191213 'CFLAGS_FOR_TARGET=-O2    -mcmodel=medlow' 'CXXFLAGS_FOR_TARGET=-O2    -mcmodel=medlow'
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 15.2.0 (g5115c7e44) 
+COLLECT_GCC_OPTIONS='--sysroot=/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/sysroot' '-v' '-o' 'CMakeFiles/cmTC_b6c28.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64imafdc_zicsr_zifencei_zaamo_zalrsc' '-mabi=lp64d' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd' '-dumpdir' 'CMakeFiles/cmTC_b6c28.dir/'
+ /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../libexec/gcc/riscv64-unknown-linux-gnu/15.2.0/cc1plus -quiet -v -imultilib . -iprefix /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/ -isysroot /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/sysroot -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b6c28.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=rv64imafdc_zicsr_zifencei_zaamo_zalrsc -mabi=lp64d -misa-spec=20191213 -mtls-dialect=trad -march=rv64imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd -version -o /tmp/ccsb1nBu.s
+GNU C++17 (g5115c7e44) version 15.2.0 (riscv64-unknown-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/include/c++/15.2.0"
+ignoring duplicate directory "/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/include/c++/15.2.0/riscv64-unknown-linux-gnu/."
+ignoring duplicate directory "/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/include/c++/15.2.0/backward"
+ignoring duplicate directory "/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/include"
+ignoring nonexistent directory "/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/sysroot/usr/local/include"
+ignoring duplicate directory "/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/include-fixed"
+ignoring duplicate directory "/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/include/c++/15.2.0
+ /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/include/c++/15.2.0/riscv64-unknown-linux-gnu/.
+ /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/include/c++/15.2.0/backward
+ /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/include
+ /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/include-fixed
+ /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/include
+ /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/sysroot/usr/include
+End of search list.
+Compiler executable checksum: 1dceaaf6420175aeeb59fdbe47e02262
+COLLECT_GCC_OPTIONS='--sysroot=/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/sysroot' '-v' '-o' 'CMakeFiles/cmTC_b6c28.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64imafdc_zicsr_zifencei_zaamo_zalrsc' '-mabi=lp64d' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd' '-dumpdir' 'CMakeFiles/cmTC_b6c28.dir/'
+ /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/bin/as -v --traditional-format -march=rv64imafdc_zicsr_zifencei_zaamo_zalrsc -march=rv64imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_b6c28.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccsb1nBu.s
+GNU assembler version 2.45 (riscv64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.45
+COMPILER_PATH=/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../libexec/gcc/riscv64-unknown-linux-gnu/15.2.0/:/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../libexec/gcc/:/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/bin/
+LIBRARY_PATH=/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/:/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/:/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/lib/:/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/sysroot/lib/:/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/sysroot' '-v' '-o' 'CMakeFiles/cmTC_b6c28.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64imafdc_zicsr_zifencei_zaamo_zalrsc' '-mabi=lp64d' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd' '-dumpdir' 'CMakeFiles/cmTC_b6c28.dir/CMakeCXXCompilerABI.cpp.'
+[2/2] Linking CXX static library libcmTC_b6c28.a
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/include/c++/15.2.0]
+    add: [/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/include/c++/15.2.0/riscv64-unknown-linux-gnu/.]
+    add: [/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/include/c++/15.2.0/backward]
+    add: [/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/include]
+    add: [/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/include-fixed]
+    add: [/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/include]
+    add: [/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/include/c++/15.2.0] ==> [/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/riscv64-unknown-linux-gnu/include/c++/15.2.0]
+  collapse include dir [/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/include/c++/15.2.0/riscv64-unknown-linux-gnu/.] ==> [/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/riscv64-unknown-linux-gnu/include/c++/15.2.0/riscv64-unknown-linux-gnu]
+  collapse include dir [/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/include/c++/15.2.0/backward] ==> [/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/riscv64-unknown-linux-gnu/include/c++/15.2.0/backward]
+  collapse include dir [/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/include] ==> [/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/lib/gcc/riscv64-unknown-linux-gnu/15.2.0/include]
+  collapse include dir [/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/include-fixed] ==> [/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/lib/gcc/riscv64-unknown-linux-gnu/15.2.0/include-fixed]
+  collapse include dir [/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/include] ==> [/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/riscv64-unknown-linux-gnu/include]
+  collapse include dir [/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/sysroot/usr/include] ==> [/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/sysroot/usr/include]
+  implicit include dirs: [/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/riscv64-unknown-linux-gnu/include/c++/15.2.0;/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/riscv64-unknown-linux-gnu/include/c++/15.2.0/riscv64-unknown-linux-gnu;/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/riscv64-unknown-linux-gnu/include/c++/15.2.0/backward;/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/lib/gcc/riscv64-unknown-linux-gnu/15.2.0/include;/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/lib/gcc/riscv64-unknown-linux-gnu/15.2.0/include-fixed;/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/riscv64-unknown-linux-gnu/include;/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(riscv64-unknown-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/rehan-10xe/Documents/work/llama.cpp-RISE-testing/build-riscv-cross/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_b6c28 && [1/2] Building CXX object CMakeFiles/cmTC_b6c28.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/riscv64-unknown-linux-gnu-g++]
+  ignore line: [Target: riscv64-unknown-linux-gnu]
+  ignore line: [Configured with: /home/runner/work/riscv-gnu-toolchain/riscv-gnu-toolchain/gcc/configure --target=riscv64-unknown-linux-gnu --prefix=/mnt/riscv --with-sysroot=/mnt/riscv/sysroot --with-pkgversion=g5115c7e44 --with-system-zlib --enable-shared --enable-tls --enable-languages=c c++ fortran --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libsanitizer --disable-nls --disable-bootstrap --src=.././gcc --disable-default-pie --disable-multilib --with-abi=lp64d --with-arch=rv64gc --with-isa-spec=20191213 'CFLAGS_FOR_TARGET=-O2    -mcmodel=medlow' 'CXXFLAGS_FOR_TARGET=-O2    -mcmodel=medlow']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 15.2.0 (g5115c7e44) ]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/sysroot' '-v' '-o' 'CMakeFiles/cmTC_b6c28.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64imafdc_zicsr_zifencei_zaamo_zalrsc' '-mabi=lp64d' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd' '-dumpdir' 'CMakeFiles/cmTC_b6c28.dir/']
+  ignore line: [ /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../libexec/gcc/riscv64-unknown-linux-gnu/15.2.0/cc1plus -quiet -v -imultilib . -iprefix /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/ -isysroot /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/sysroot -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b6c28.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=rv64imafdc_zicsr_zifencei_zaamo_zalrsc -mabi=lp64d -misa-spec=20191213 -mtls-dialect=trad -march=rv64imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd -version -o /tmp/ccsb1nBu.s]
+  ignore line: [GNU C++17 (g5115c7e44) version 15.2.0 (riscv64-unknown-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/include/c++/15.2.0"]
+  ignore line: [ignoring duplicate directory "/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/include/c++/15.2.0/riscv64-unknown-linux-gnu/."]
+  ignore line: [ignoring duplicate directory "/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/include/c++/15.2.0/backward"]
+  ignore line: [ignoring duplicate directory "/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/include/c++/15.2.0]
+  ignore line: [ /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/include/c++/15.2.0/riscv64-unknown-linux-gnu/.]
+  ignore line: [ /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/include/c++/15.2.0/backward]
+  ignore line: [ /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/include]
+  ignore line: [ /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/include-fixed]
+  ignore line: [ /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/include]
+  ignore line: [ /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Compiler executable checksum: 1dceaaf6420175aeeb59fdbe47e02262]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/sysroot' '-v' '-o' 'CMakeFiles/cmTC_b6c28.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64imafdc_zicsr_zifencei_zaamo_zalrsc' '-mabi=lp64d' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd' '-dumpdir' 'CMakeFiles/cmTC_b6c28.dir/']
+  ignore line: [ /home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/bin/as -v --traditional-format -march=rv64imafdc_zicsr_zifencei_zaamo_zalrsc -march=rv64imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_b6c28.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccsb1nBu.s]
+  ignore line: [GNU assembler version 2.45 (riscv64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.45]
+  ignore line: [COMPILER_PATH=/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../libexec/gcc/riscv64-unknown-linux-gnu/15.2.0/:/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../libexec/gcc/:/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/:/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/:/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/bin/../lib/gcc/riscv64-unknown-linux-gnu/15.2.0/../../../../riscv64-unknown-linux-gnu/lib/:/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/sysroot/lib/:/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/rehan-10xe/Downloads/riscv64-glibc-ubuntu-22.04-gcc/riscv/sysroot' '-v' '-o' 'CMakeFiles/cmTC_b6c28.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64imafdc_zicsr_zifencei_zaamo_zalrsc' '-mabi=lp64d' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd' '-dumpdir' 'CMakeFiles/cmTC_b6c28.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [[2/2] Linking CXX static library libcmTC_b6c28.a]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+riscv64-unknown-linux-gnu-gcc (g5115c7e44) 15.2.0
+Copyright (C) 2025 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/rehan-10xe/Documents/work/llama.cpp-RISE-testing/build-riscv-cross/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_22e92 && [1/2] Building C object CMakeFiles/cmTC_22e92.dir/CheckIncludeFile.c.o
+[2/2] Linking C static library libcmTC_22e92.a
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/rehan-10xe/Documents/work/llama.cpp-RISE-testing/build-riscv-cross/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_77f37 && [1/2] Building C object CMakeFiles/cmTC_77f37.dir/src.c.o
+[2/2] Linking C static library libcmTC_77f37.a
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
