@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04-riscv
+    strategy:
+      fail-fast: false
+      matrix:
+        target:
+          - test-quantize
+          - test-float
+          - test-repack
+          - test-backend-ops-mul-mat
+          - test-backend-ops-flash-attn
+          - perf-float
+          - perf-repack
+          - test-quantize-perf
+          - perf-backend-ops-mul-mat
+          - perf-backend-ops-flash-attn
+    name: ${{ matrix.target }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          submodules: recursive
+
+      - name: Install build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            gcc-14 g++-14 ninja-build ccache cmake zlib1g-dev libgomp1
+
+      - name: Restore ccache
+        uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
+        with:
+          path: ~/.cache/ccache
+          key: ccache-riscv-release-${{ matrix.target }}-${{ github.sha }}
+          restore-keys: |
+            ccache-riscv-release-${{ matrix.target }}-
+            ccache-riscv-release-
+
+      - name: Configure
+        run: cmake --preset riscv-release
+
+      - name: Build
+        run: cmake --build --preset riscv-release
+
+      - name: Run ${{ matrix.target }}
+        run: ctest --preset riscv-native-tests -R '^${{ matrix.target }}$' -V --output-on-failure
