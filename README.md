@@ -1,10 +1,8 @@
-Here's the rewritten README:
-
----
-
 # llama.cpp RISE: Testing and Benchmarking
 
-RISE provides a focused test and benchmark suite for validating and profiling llama.cpp GGML kernel implementations on RISC-V targets which covers quantized vector dot products, FP16/BF16 utilities, GEMM/GEMV repack operations and core backend ops (MUL_MAT, FLASH_ATTN_EXT).
+This is a test and benchmark suite for validating and profiling llama.cpp GGML kernel implementations on RISC-V targets which covers quantized vector dot products, FP16/BF16 utilities, GEMM/GEMV repack operations and core backend ops (MUL_MAT, FLASH_ATTN_EXT).
+
+This framework is developed as part of [RISE RP-014: Optimizing Llama.cpp and GGML for RVV ](https://lf-rise.atlassian.net/wiki/spaces/HOME/pages/628817924/Project+RP014+Optimizing+Llama.cpp+and+GGML+for+RVV).
 
 ## Getting Started
 
@@ -46,9 +44,9 @@ cmake --build --preset riscv-release
 
 Before configuring, set the following variables in `cmake/riscv64-linux-gcc.cmake` to match your local setup:
 
-- `RISCV_TOOLCHAIN_PATH` — path to your RISC-V toolchain
-- `CMAKE_SYSROOT` — path to the target sysroot
-- `RV_QEMU_BIN` — path to the QEMU binary
+- `RISCV_TOOLCHAIN_PATH`: path to your RISC-V toolchain
+- `CMAKE_SYSROOT`: path to the target sysroot
+- `RV_QEMU_BIN`: path to the QEMU binary
 
 Then configure and build:
 
@@ -57,7 +55,7 @@ cmake --preset riscv-cross -DRV_VLEN=<VLEN>
 cmake --build --preset riscv-cross
 ```
 
-When cross-compiling, `CMAKE_CROSSCOMPILING_EMULATOR` is set automatically during configure. Only correctness-oriented tests are registered as CTest targets — perf tests and `model-bench-all` are intentionally excluded since cross-compilation runs under QEMU emulation and performance numbers would not be meaningful:
+When cross-compiling, `CMAKE_CROSSCOMPILING_EMULATOR` is set automatically during configure. Only correctness-oriented tests are registered as CTest targets (perf tests and `model-bench-all`) are intentionally excluded since cross-compilation runs under QEMU emulation and performance numbers would not be meaningful:
 
 - `test-quantize`
 - `test-float`

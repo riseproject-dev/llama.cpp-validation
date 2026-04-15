@@ -33,7 +33,7 @@ function(add_rise_test name source)
     set(_libs ggml-cpu ggml-base)
     target_link_libraries(${name} PRIVATE ${_libs})
 
-    # Mirror ggml-cpu arch flags (e.g., -march, AVX) for parity.
+    # Mirror ggml-cpu arch flags.
     target_compile_options(${name} PRIVATE
             $<TARGET_PROPERTY:ggml-cpu,COMPILE_OPTIONS>
     )
